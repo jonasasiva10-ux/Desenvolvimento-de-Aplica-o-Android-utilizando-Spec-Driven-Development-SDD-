@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">SeuJogo</string>
+
+    <!-- Navegação -->
+    <string name="nav_trends">Tendências</string>
+    <string name="nav_patches">Patches</string>
+    <string name="nav_players">Jogadores</string>
+    <string name="nav_saved">Salvos</string>
+
+    <!-- Status e Conectividade -->
+    <string name="status_live_online">AO VIVO • API OFICIAL</string>
+    <string name="status_offline_cache">MODO OFFLINE • CACHE LOCAL</string>
+    <string name="status_syncing">Sincronizando telemetria…</string>
+    <string name="action_refresh">Atualizar dados</string>
+    <string name="action_retry">Tentar novamente</string>
+    <string name="action_back">Voltar</string>
+    <string name="action_open_official">Abrir nota oficial</string>
+    <string name="action_clear_search">Limpar busca</string>
+
+    <!-- Tendências -->
+    <string name="trends_hero_eyebrow">RADAR DE TELEMETRIA STEAM</string>
+    <string name="trends_hero_title">Ranking &amp; Tendências</string>
+    <string name="trends_hero_subtitle">Jogadores simultâneos, picos diários e variação semanal em tempo real.</string>
+    <string name="trends_search_hint">Buscar jogo ou gênero…</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_rising">Em Alta</string>
+    <string name="filter_favorites">Favoritos</string>
+    <string name="trends_empty_title">Nenhum jogo encontrado</string>
+    <string name="trends_empty_subtitle">Ajuste os filtros ou atualize para sincronizar o ranking oficial.</string>
+    <string name="label_peak_24h">Pico simultâneo</string>
+    <string name="label_live_now">Online agora</string>
+    <string name="label_rank_new">NOVO</string>
+    <string name="label_rank_steady">ESTÁVEL</string>
+
+    <!-- Patches -->
+    <string name="patches_title">Patches &amp; Modificações</string>
+    <string name="patches_subtitle">Atualizações oficiais, balanceamentos e hotfixes em tempo real.</string>
+    <string name="patches_only_filter">Somente Patches</string>
+    <string name="patches_all_games">Todos os jogos</string>
+    <string name="patches_empty_title">Nenhuma nota de atualização</string>
+    <string name="patches_empty_subtitle">Toque em atualizar para sincronizar os patches mais recentes das APIs oficiais.</string>
+    <string name="patch_badge_official">PATCH OFICIAL</string>
+    <string name="patch_badge_update">ATUALIZAÇÃO</string>
+    <string name="patch_detail_sheet_title">Detalhes da Modificação</string>
+    <string name="action_close">Fechar</string>
+
+    <!-- Jogadores -->
+    <string name="players_title">Ranks &amp; Stats de Players</string>
+    <string name="players_subtitle">Leaderboard competitivo e consulta ao vivo via OpenDota API.</string>
+    <string name="players_search_hint">Buscar pro player ou colar Account ID…</string>
+    <string name="players_lookup_button">Consultar ID</string>
+    <string name="players_quick_picks">Perfis em destaque</string>
+    <string name="players_pro_section">Ranking Pro Ativo</string>
+    <string name="players_empty_title">Nenhum jogador localizado</string>
+    <string name="players_empty_subtitle">Digite o nome de um pro player ou informe um Steam32 Account ID numérico.</string>
+    <string name="player_detail_title">Perfil Competitivo</string>
+    <string name="player_stat_winrate">Win Rate</string>
+    <string name="player_stat_wins">Vitórias</string>
+    <string name="player_stat_losses">Derrotas</string>
+    <string name="player_stat_kda">Média K/D/A</string>
+    <string name="player_recent_matches">Partidas Recentes</string>
+    <string name="player_match_win">VITÓRIA</string>
+    <string name="player_match_loss">DERROTA</string>
+
+    <!-- Salvos -->
+    <string name="saved_title">Hub Offline</string>
+    <string name="saved_subtitle">Seus jogos fixados e últimos patches sempre disponíveis sem internet.</string>
+    <string name="saved_empty_title">Nenhum jogo fixado ainda</string>
+    <string name="saved_empty_subtitle">Toque na estrela em qualquer jogo do ranking para fixá-lo e consultar patches offline.</string>
+
+    <!-- Detalhe do Jogo -->
+    <string name="game_detail_title">Telemetria do Jogo</string>
+    <string name="game_detail_recent_patches">Últimos Patches &amp; Notas</string>
+    <string name="game_detail_about">Sobre o Título</string>
+    <string name="game_detail_developer">Desenvolvedora</string>
+    <string name="game_detail_metacritic">Metacritic</string>
+    <string name="cd_favorite_add">Adicionar aos favoritos</string>
+    <string name="cd_favorite_remove">Remover dos favoritos</string>
+    <string name="cd_hero_banner">Banner de telemetria de jogos</string>
+    <string name="cd_offline_illustration">Ilustração de radar offline</string>
+
+    <!-- Erros -->
+    <string name="error_network_title">Sem conexão com a internet</string>
+    <string name="error_network_message">Não foi possível consultar a API oficial. Conecte-se para sincronizar os dados ao vivo.</string>
+    <string name="error_timeout_title">Tempo limite excedido</string>
+    <string name="error_timeout_message">O servidor oficial demorou para responder. Tente novamente em instantes.</string>
+    <string name="error_server_title">Serviço temporariamente indisponível</string>
+    <string name="error_server_message">A API oficial retornou um erro inesperado. Tente novamente.</string>
+    <string name="error_not_found_title">Registro não encontrado</string>
+    <string name="error_not_found_message">Verifique o ID informado ou tente outro título.</string>
+    <string name="error_unknown_title">Erro ao carregar dados</string>
+    <string name="error_unknown_message">Ocorreu uma falha inesperada durante a sincronização.</string>
+</resources>
